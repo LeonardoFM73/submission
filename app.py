@@ -315,9 +315,4 @@ if submitted:
     input_df = input_df[column_order]
     prediction = model.predict(input_df)[0]
 
-    if prediction == "Graduate":
-        st.success("Prediction: Graduate 🎓")
-    elif prediction == "Enrolled":
-        st.success("Prediction: Enrolled 📚")
-    elif prediction == "Dropout":
-        st.error("Prediction: Dropout ❌")
+    st.success(f"Prediction: {prediction_labels[prediction]}")

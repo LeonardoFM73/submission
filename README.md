@@ -9,7 +9,7 @@ Tingkat dropout yang tinggi tidak hanya berdampak pada reputasi institusi, tetap
 - Tingginya jumlah siswa yang melakukan dropout.
 - Insitut kurang memahami faktor-faktor yang memengaruhi performa siswa.
 - Tidak adanya sistem monitoring performa siswa berbasis data.
-- Ketiadaan sistem deteksi dini untuk mengidentifikasi siswa berisiko tinggi..
+- Ketiadaan sistem deteksi dini untuk mengidentifikasi siswa berisiko tinggi.
 
 ### Cakupan Proyek
 - Melakukan eksplorasi dan preprocessing data siswa yang disediakan oleh institusi.
@@ -20,7 +20,7 @@ Tingkat dropout yang tinggi tidak hanya berdampak pada reputasi institusi, tetap
 
 ### Persiapan
 
-Sumber data : [Github Dicoding Jaya Maju Student Performance ](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
+Sumber data : [Github Dicoding Jaya Jaya Student Performance ](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
 
 Setup environment:
 ```

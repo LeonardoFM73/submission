@@ -42,8 +42,6 @@ docker run -d -p 3000:3000 --name metabase \
 
 ## Business Dashboard
 Link Dashboard : [Dashboard](http://localhost:3000/public/dashboard/f33f6bed-d92f-435b-bc3c-655f334c2872)
-Email: leonardo.fajar.mardika-2020@ftmm.unair.ac.id
-Password: KomboUA22
 Dashboard ini saya buat dengan memasukkan dataset student performance. Dalam dashboard ini tab dimana yang berkaitan kondisi status siswa, hubungan status dengan keadaan siswa, hubungan status dengan nilai siswa, dan hubungan status dengan keadaan ekonomi.
 Dashboard diawali dengan memiliki beberapa filter seperti:
 - Age enrollment : Umur pelajar/siswa masuk

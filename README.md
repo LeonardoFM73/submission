@@ -24,7 +24,7 @@ Sumber data : [Github Dicoding Jaya Jaya Student Performance ](https://github.co
 
 Setup environment:
 ```
-conda create --name JayaMajuHR python=3.9
+conda create --name JayaJaya python=3.9
 conda activate JayaMajuHR
 pip install -r requirements.txt
 ```

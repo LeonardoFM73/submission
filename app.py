@@ -270,11 +270,6 @@ numeric_columns = [
     "Inflation_rate",
     "GDP" 
 ]
-prediction_labels = {
-    0: "Dropout",
-    1: "Enrolled",
-    2: "Graduate"
-}
 
 # Title
 st.title("Student Status Prediction App")
@@ -315,4 +310,9 @@ if submitted:
     input_df = input_df[column_order]
     prediction = model.predict(input_df)[0]
 
-    st.success(f"Prediction: {prediction_labels[prediction]}")
+    if prediction == 2:
+        st.success("Prediction: Graduate 🎓")
+    elif prediction == 1:
+        st.success("Prediction: Enrolled 📚")
+    elif prediction == 0:
+        st.error("Prediction: Dropout ❌")
